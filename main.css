@@ -1,0 +1,98 @@
+body {
+
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.shelf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#game-form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 1rem 1rem;
+    width: fit-content;
+    height: fit-content;
+    border: 1px purple solid;
+
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 6.5rem;
+    text-align: left;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  border-radius: 5px;
+}
+
+.submit {
+    margin-top: 1rem;
+}
+
+
+.library {
+    margin: auto;
+    margin-top: 3rem; 
+    border: purple 2px solid;
+    padding: 1rem 1rem 1rem 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.library th {
+    background-color: lightpink;
+}
+
+.delete {
+    text-decoration: none;
+    background-color: red;
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem; 
+    font-size: smaller;
+    font-weight: 600;
+
+
+}
+
+.dndisplay {
+    display: none;
+}
+
+.alert {
+    text-align: center;
+    border: black 3px solid;
+    height: fit-content;
+    width: fit-content;
+    margin: auto auto 0.5rem auto;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+}
+
+.fail {
+    background-color: rgba(243, 108, 108, 0.836);
+}
+
+.pass {
+    background-color: lightgreen;
+}
+

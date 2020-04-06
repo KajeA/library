@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>My Games Library</title>
+</head>
+<body>
+    <section class="shelf">
+        <h1>My Games Library</h1>
+        <form id="game-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="publisher">Publisher</label>
+                <input type="text" id="publisher" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">Players</label>
+                <input type="text" id="players" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">Time</label>
+                <input type="text" id="time" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="title">Rating</label>
+                <input type="text" id="rating" class="form-control">
+            </div>
+            <input type="submit" class="submit" value="Add Game">
+        </form>
+        <table class="library">
+            <thead>
+            <tr>
+               <th>Title</th>
+               <th>Publisher</th>
+               <th>Players</th>
+               <th>Time</th>
+               <th>Rating</th>
+               <th class="dndisplay"></th> 
+            </tr>
+            </thead>
+        <tbody id="library-list"></tbody>
+        </table>
+    </section>
+
+    <script src="games.js"></script>
+</body>
+</html>
